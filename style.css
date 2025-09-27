@@ -7,10 +7,16 @@ body {
 
 #game-board {
   display: grid;
-  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(6, 1fr);
   gap: 5px;
-  justify-content: center;
+  width: max-content;
   margin: 20px auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
 }
 
 .tile {
@@ -24,6 +30,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-.correct { background-color: #538d4e; } /* green */
-.present { background-color: #b59f3b; } /* yellow */
-.absent { background-color: #3a3a3c; } /* gray */
+
+.correct { background-color: #538d4e; }
+.present { background-color: #b59f3b; }
+.absent { background-color: #3a3a3c; }
