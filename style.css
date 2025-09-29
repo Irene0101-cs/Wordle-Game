@@ -24,6 +24,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-.correct { background-color: #538d4e; } /* green */
-.present { background-color: #b59f3b; } /* yellow */
-.absent { background-color: #3a3a3c; } /* gray */
+.correct { background-color: #fadae5; } /* green */
+.present { background-color: #d9f7f7; } /* yellow */
+.absent { background-color: #f8f8ff; } /* gray */
+
